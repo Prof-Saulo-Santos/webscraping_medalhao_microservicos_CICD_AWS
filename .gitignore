@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Data (Bronze layer ignored to avoid large commits)
+data/
