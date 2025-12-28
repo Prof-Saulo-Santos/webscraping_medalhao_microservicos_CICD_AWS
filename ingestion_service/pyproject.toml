@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ingestion-service"
-version = "0.1.0"
+version = "0.2.0"
 description = "Microserviço responsável pela captura de dados do arXiv e persistência na camada Bronze."
 authors = ["Admin <admin@example.com>"]
 readme = "../README.md"
