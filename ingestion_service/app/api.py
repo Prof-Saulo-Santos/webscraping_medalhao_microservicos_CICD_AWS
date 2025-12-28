@@ -7,8 +7,10 @@ from app.repository import BronzeRepository
 app = FastAPI(
     title="ArXiv Ingestion Service",
     description="Microserviço para coleta e armazenamento de dados do arXiv (Camada Bronze).",
-    version="0.2.0",
-)
+    version="0.1.0", # Mantenha a versão do projeto sincronizada com o pyproject.toml. 
+)                    # No momento do git, ao finalizar uma feature ou correção importante, execute o `make bump-minor`
+                     # Esse comando ira incrementar a versão do projeto e atualizar os arquivos necessários.
+                     
 
 
 class IngestResponse(BaseModel):
